@@ -8,6 +8,11 @@
 
 
 ### What's new
+
+[SubEthaEdit 5][subethaedit_net] has been released. While most more popular modes now will just be integrated in the main release, more obscure ones still can find their home here.
+
+---
+
 This repository is currently under construction - we try our best to provide you with documentation and updated modes.  
 Watch the master branch of this repository to stay up to date with our efforts.
 
@@ -19,9 +24,6 @@ Watch the master branch of this repository to stay up to date with our efforts.
 
 ### Links
 [SubEthaEdit][subethaedit_net]  
-[TheCodingMonkeys][codingmonkeys_de]
-
-
 
 <!-- Referenced Files -->
 [ModeUpdate]: Documentation/ModeUpdateNotes.md "Notes on updating modes from SubEthaEdit 3 to 4"
@@ -40,5 +42,5 @@ Watch the master branch of this repository to stay up to date with our efforts.
 [ModeTutorial]: Documentation/ModeTutorial "Mode Creation Tutorials"
 
 <!-- Referenced URLs -->
-[subethaedit_net]: http://subethaedit.net/ "SubEthaEdit Website"
+[subethaedit_net]: https://subethaedit.net/ "SubEthaEdit Website"
 [codingmonkeys_de]: http://codingmonkeys.de/ "TheCodingMonkeys Website"

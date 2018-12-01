@@ -34,7 +34,7 @@ Description forthcoming.
 
 
 <!-- Referenced Files -->
-[ModeDocu3]: http://htmlpreview.github.io?https://github.com/codingmonkeys/SubEthaEdit/blob/master/Attic/SubEthaEdit3/Documentation/mode.html "SubEthaEdit 3.x Mode Documentation"
+[ModeDocu3]: ../Attic/SubEthaEdit3/Documentation "SubEthaEdit 3.x Mode Documentation"
 
 [ModeUpdate]: ModeUpdateNotes.md "Notes on updating modes from SubEthaEdit 3 to 4"
 [Scopes]: Styles/Scopes.md "Style Sheet Scopes Documentation"
@@ -45,4 +45,4 @@ Description forthcoming.
 [ModeTutorial]: ModeTutorial "Mode Creation Tutorials"
 
 <!-- Referenced URLs -->
-[see_github]: https://github.com/codingmonkeys/SubEthaEdit "SubEthaEdit GitHub Repo"
+[see_github]: https://github.com/subethaedit/SubEthaEdit "SubEthaEdit GitHub Repo"
