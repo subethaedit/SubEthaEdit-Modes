@@ -12,4 +12,4 @@ Language | Version | Update Date | Comment | Author
 
 
 ### Links
-[SubEthaEdit GitHub Repo](https://github.com/codingmonkeys/SubEthaEdit) 
+[SubEthaEdit GitHub Repo](https://github.com/subethaedit/SubEthaEdit) 
