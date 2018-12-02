@@ -12,6 +12,6 @@ Usage: CreateModeBundle.rb <ModeName> <Extensions comma separated> [target-direc
 Helper script to create a `.seemode` bundle as starting point for a new mode. Best used using the curl trick direclty from this repository so you always get the most recent version of what we think a bundle skeleton should look like.
 
 ```
-ruby -e "$(curl -fsSL https://raw.github.com/codingmonkeys/SubEthaEdit/master/bin/CreateModeBundle.rb)" <Parameters>	
+ruby -e "$(curl -fsSL https://raw.github.com/subethaedit/SubEthaEdit-Modes/master/bin/CreateModeBundle.rb)" <Parameters>	
 ```
  
