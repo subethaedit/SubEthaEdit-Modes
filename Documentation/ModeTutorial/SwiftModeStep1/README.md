@@ -16,7 +16,7 @@ This opens your User Modes folder in the finder. If not already open, open your 
 Now you can go ahead and use our little helper script to generate the `.seemode` Bundle
 
 ```bash
-ruby -e "$(curl -fsSL https://raw.github.com/codingmonkeys/SubEthaEdit/master/bin/CreateModeBundle.rb)" Swift swift
+ruby -e "$(curl -fsSL https://raw.github.com/subethaedit/SubEthaEdit-Modes/master/bin/CreateModeBundle.rb)" Swift swift
 ```
 
 This creates your Mode Skeleton for our new `Swift.seemode` and also conveniently opens it's contents in a new finder window.
