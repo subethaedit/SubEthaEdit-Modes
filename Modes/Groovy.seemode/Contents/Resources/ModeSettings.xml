@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <recognition>
+        <extension>groovy</extension>
+        <extension>grv</extension>
+        <extension>gv</extension>
+        <extension>gvy</extension>
+    </recognition>
+</settings>
