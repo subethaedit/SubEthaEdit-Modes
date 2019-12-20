@@ -68,6 +68,7 @@ This is the folder structure of `Example.seemode` and all the included files:
 |	|	|	* Scripts/
 |	|	|	|	* HelloThere.scpt
 |	|	|	* SyntaxDefinition.xml
+|   |   |   * WebPreview.js
 ```	
 	
 
@@ -90,6 +91,7 @@ Files in _italics_ are optional custom files without special rules for their nam
 			* [ModeSettings.xml][ModeSettings_xml] _(optional)_
 			* [RegexSymbols.xml][RegexSymbols_xml] _(optional)_
 			* [ScopeExamples.plist][ScopeExamples_plist] _(optional)_
+			* [WebPreview.js][WebPreview_js] _(optional)_
 			* [SyntaxDefinition.xml][SyntaxDefinition_xml]
 			* _NewTemplate.txt_ -- see: [ModeSettings.xml][ModeSettings_xml]
 			* _CustomImage.png_ -- see: [RegexSymbols.xml][RegexSymbols_xml]
@@ -119,6 +121,7 @@ Files that are used as symbol icons in the symbol popup are also referenced by n
 [RegexSymbols_xml]: Documentation/RegexSymbols_xml.md "RegexSymbols_xml.md"
 [ScopeExamples_plist]: Documentation/ScopeExamples_plist.md "ScopeExamples_plist.md"
 [SyntaxDefinition_xml]: Documentation/SyntaxDefinition_xml.md "SyntaxDefinition_xml.md"
+[WebPreview_js]: Documentation/WebPreview_js.md "WebPreview_js.md"
 
 <!-- Referenced Paths -->
 [ModeExample]: . "SubEthaEdit 4 Example Mode Documentation"
