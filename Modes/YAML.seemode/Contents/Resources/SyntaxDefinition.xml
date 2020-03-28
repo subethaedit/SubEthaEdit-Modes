@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax>
+    <head>
+        <name>YAML</name>
+        <charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@]]></charsintokens>
+    </head>
+    <states>
+        <default id="Base" scope="meta.default">
+            <keywords id="Keywords" casesensitive="no" useforautocomplete="yes" scope="keyword">
+            	<regex>^(?:\s|-)*([^\n]*?):</regex>
+            </keywords>
+            <keywords id="Built-in Constants" casesensitive="no" useforautocomplete="yes" scope="support.constant">
+                <string>True</string>
+                <string>False</string>
+                <string>Yes</string>
+                <string>No</string>
+            </keywords>
+            <keywords id="Numbers" useforautocomplete="no" scope="language.constant.numeric">
+                <!-- floats -->
+                <regex>(?&lt;![\w\d_\.])((?:(?:(?:(?:\d+\.\d*|\.\d+)(?:[eE][+-]?\d+)?)|(?:[\d+][eE][+-]?\d+))[jJ]?)|\d+[jJ])(?![\w\d_\.])</regex>
+                <!-- integers -->
+                <regex>(?&lt;![\w\d_\.])((?:(?:(?:[1-9]\d*)|(?:0(?:(?:[oO][0-7]+)|(?:[xX]\h+)|(?:[bB][01]+))?))[lL]?))(?![\w\d_\.])</regex>
+            </keywords>
+            <state id="Singleline Comment" type="comment" scope="comment.line">
+                <begin><regex>(?:^|\s)#</regex></begin>
+                <end><regex>[\n\r]</regex></end>
+                <import mode="Base" state="EmailAndURLContainerState" keywords-only="yes"/>
+            </state>
+            <keywords id="Trailing Whitespace" scope="meta.whitespace">
+              <regex>\r?\n([ \t]+)\r?\n</regex>
+              <regex>([ \t]+)\r?\n</regex>
+            </keywords>
+        </default>
+    </states>
+</syntax>
